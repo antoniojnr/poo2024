@@ -1,0 +1,210 @@
+#background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#snake {
+  position: relative;
+  width: 130px;
+  margin-top: 100px;
+  margin-bottom: -95px;
+}
+
+body {
+  font-family: "Jersey 10", serif;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -160px;
+}
+
+h1 {
+  align-items: flex-end;
+  color: #fff;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 60px;
+  position: relative;
+}
+
+#title-snake {
+  position: relative;
+  text-shadow: 5px 5px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000;
+  z-index: 1;
+}
+
+#title-game {
+  position: relative;
+  text-shadow: 5px 5px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000;
+  z-index: 3;
+}
+
+#apple {
+  position: relative;
+  width: 120px;
+  margin-top: -180px;
+  margin-bottom: 5px;
+  margin-left: 70px;
+  z-index: 2;
+  transform: rotate(-30deg);
+}
+
+.options {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#start,
+#credits {
+  background: none;
+  font-family: "Jersey 10", serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px 1px 0 #000,
+    -1px -1px 0 #000;
+  border: none;
+  margin-bottom: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+#start:hover,
+#credits:hover,
+#voltar:hover {
+  color: rgb(190, 190, 190);
+  cursor: pointer;
+}
+
+#title-credits {
+  position: relative;
+  text-shadow: 5px 5px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  position: relative;
+}
+
+.info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.painel-manu,
+.painel-clara,
+.painel-livia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#foto-manu,
+#foto-clara,
+#foto-livia {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#nome {
+  margin-bottom: -18px;
+  font-size: 45px;
+  text-shadow: 5px 5px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000;
+}
+
+#instagram {
+  text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px 1px 0 #000,
+    -1px -1px 0 #000;
+  font-size: 18px;
+  color: rgb(197, 197, 197);
+}
+
+#voltar {
+  position: relative;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-top: -50px;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px 1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+canvas {
+  border: 2px solid #fff;
+  background-color: #111111;
+  position: relative;
+}
+
+#info {
+  color: white;
+  font-family: "Jersey 10", serif;  
+  position: relative;
+  font-size: 30px;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px 1px 0 #000,
+  1px 1px 0 #00000070;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+#playButton {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: "Jersey 10", serif;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px 1px 0 #000,
+  1px 1px 0 #00000070;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+#playButton:hover {
+  background-color: darkgreen;
+}

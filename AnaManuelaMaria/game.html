@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img id="background" src="/icons/background.png">
+    <div id="info">
+      <p>Tempo Restante: <span id="timer">60</span>s</p>
+      <p>Nível: <span id="level">1</span></p>
+      <p>Maçãs Coletadas: <span id="apples">0</span>/7</p>
+    </div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>;
+    <button id="playButton">Jogar</button>
+    <script src="script.js"></script>
+  </body>
+</html>
