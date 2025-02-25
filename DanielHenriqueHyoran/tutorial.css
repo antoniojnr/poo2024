@@ -1,0 +1,14 @@
+body {
+    background-image: url(img/BackgroundTuto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bot{ 
+    width: 100px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    background-color:#D3E0EC;
+    }

@@ -1,0 +1,30 @@
+body {
+    background-image: url(img/Background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  margin: 0; 
+}
+
+.creditos{
+width: 880px;
+background-color:#D3E0EC;
+border-radius: 30px;
+text-align: center;
+}
+
+.bot{ 
+width: 100px;
+height: 25px;
+margin-bottom: 20px;
+border-radius: 100px;
+background-color:#D3E0EC;
+}

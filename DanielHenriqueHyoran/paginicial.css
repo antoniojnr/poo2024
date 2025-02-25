@@ -1,0 +1,27 @@
+body {
+    background-image: url(img/Background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+    margin: 0; 
+  }
+  
+  .botoes{
+  width: 880px;
+  text-align: center;
+  }
+
+.bot{ 
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    background-color:#D3E0EC;
+}
